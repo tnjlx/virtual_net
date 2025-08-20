@@ -1,0 +1,20 @@
+{
+  "ip_server": "192.168.4.132",
+  "ip_server_dns": "192.168.4.132",
+
+  "dns_port": 53,
+  "dns_dbfile": "content/dns_db",
+  "dns_default_ip": "192.168.4.132",
+
+  "http_port": 80,
+  "http_file": "content/http_response",
+
+  "https_port": 443,
+  "https_file": "content/https_response",
+  "https_certfile": "ssl/server-cert.pem",
+  "https_keyfile": "ssl/server-key.pem",
+  "ssl_version": "tls10",
+
+  "tcp_port": 8000,
+  "tcp_file": "content/tcp_response"
+}
